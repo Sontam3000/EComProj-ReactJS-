@@ -1,0 +1,19 @@
+.category-side {
+  width: 23%;
+  float: left;
+  position: absolute;
+  border-right: black solid 1px;
+  margin-top: 75px;
+  padding: 0px 10px 0px 0px;
+}
+.collection-side {
+  width: 77%;
+  float: right;
+  position: relative;
+}
+
+.collection-side:after {
+  content: "";
+  display: table;
+  clear: both;
+}
