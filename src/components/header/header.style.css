@@ -1,0 +1,47 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0 4px 2px -2px gray;
+}
+.logo-container {
+  height: 100%;
+  width: 70px;
+  padding: 17px;
+  color: black;
+  font-family: "Yeon Sung", cursive;
+  margin-left: 20px;
+}
+
+.options {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.option {
+  padding: 10px 15px;
+  color: black;
+}
+.header > a {
+  text-decoration: none;
+}
+.header > a:hover {
+  transform: scale(1.081);
+  color: black;
+}
+
+.options > a:hover {
+  transform: scale(1.05);
+  color: black;
+}

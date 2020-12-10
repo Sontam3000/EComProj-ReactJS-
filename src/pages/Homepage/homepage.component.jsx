@@ -6,7 +6,7 @@ import './homepage.component.style.css';
 const HomePage=()=>(
     
         <div className='homepage'>
-            <div>Shop By Categories</div>
+            <span className='shopby'>Shop By Categories</span>
        <BoxComponent />
         </div>
     

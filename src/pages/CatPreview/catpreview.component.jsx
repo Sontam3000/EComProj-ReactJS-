@@ -18,7 +18,7 @@ render(){
         <div className='catshopage'> <Row>
             <div className='category-side'>
            
-                <h3>Categories:</h3>
+                <h3 className='cat-side-title'>Categories:</h3>
           
             {
            catshop.map(({id,...otherCollectionProps})=>(

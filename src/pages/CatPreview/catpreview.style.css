@@ -10,10 +10,18 @@
   width: 77%;
   float: right;
   position: relative;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .collection-side:after {
   content: "";
   display: table;
   clear: both;
+}
+.cat-side-title {
+  margin-left: 10px;
+  padding-left: 20px;
 }
