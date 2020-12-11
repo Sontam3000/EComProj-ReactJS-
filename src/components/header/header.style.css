@@ -20,6 +20,8 @@
   color: black;
   font-family: "Yeon Sung", cursive;
   margin-left: 20px;
+  display: block;
+  background-color: white;
 }
 
 .options {
@@ -28,20 +30,34 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  background-color: white;
 }
 .option {
   padding: 10px 15px;
   color: black;
+  background-color: white;
 }
 .header > a {
   text-decoration: none;
+  background-color: white;
 }
 .header > a:hover {
-  transform: scale(1.081);
   color: black;
 }
 
 .options > a:hover {
   transform: scale(1.05);
   color: black;
+}
+.search-bar {
+  display: inline-block;
+  width: 800px;
+  margin-left: 150px;
+  margin-top: 18px;
+  height: 33px;
+  border-radius: 5px;
+  background-color: white;
+}
+.logo {
+  background-color: white;
 }

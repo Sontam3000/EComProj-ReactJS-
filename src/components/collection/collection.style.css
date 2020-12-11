@@ -1,10 +1,22 @@
 .collection-item {
-  margin: 10px;
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
+  margin: 5px;
+  padding: 1px;
+  height: 399px;
+  border: none;
+  width: 340px;
+}
+.collection-item * {
+  background-color: white;
+}
+.card-img {
+  width: 335px;
+  height: 320px;
+}
+.card-body {
+  background-color: white;
 }
 
+/*
 img {
   height: 100%;
   width: 100%;
@@ -12,11 +24,13 @@ img {
   background-size: 100% 100%;
   border-radius: 3px;
 }
-
+*/
 .name {
-  width: 90%;
+  background-color: white;
+  float: left;
+  display: block;
 }
 
 .price {
-  width: 10%;
+  background-color: white;
 }

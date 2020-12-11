@@ -10,6 +10,8 @@
   overflow: hidden;
   cursor: pointer;
   border-bottom: solid 1px black;
+  margin-bottom: 25px;
+  background-color: white;
 }
 .category-box:hover {
   transition: 380ms transform;
@@ -21,17 +23,24 @@
   background-position: fixed;
   background-size: 100% 100%;
   border-radius: 3px;
+  background-color: white;
 }
 .content {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 18px;
+  text-align: center;
+  padding: 3px;
+  background-color: white;
 }
 .title {
   font-size: 15px;
   display: flex;
   justify-content: center;
+  background-color: white;
+  border: none;
+  text-align: center;
 }
 .content > a {
   text-decoration: none;

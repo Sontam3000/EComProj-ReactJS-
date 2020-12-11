@@ -1,0 +1,7 @@
+.signin {
+  width: 30vw;
+  display: felx;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 10px;
+}

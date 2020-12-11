@@ -1,19 +1,20 @@
 import React from 'react';
 import './collection.style.css';
+import { Col,Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const Collection=({name,price,imageUrl})=>(
-    <div className='collection-item'>
-        <img
-      className='image'
-        src={imageUrl}
-        alt={name}
-    />
-      <span className='name'>{name}</span>
-      <span className='price'>{price}</span> 
-    
-    </div>
- 
-    
+<Col md='3'>
+ <Card  className='collection-item' >
+     <img className='card-img' 
+      src={imageUrl}
+      alt={name} />
+<Card.Body className='card-body'>
+    <Card.Title><span className='name'>{name}</span><br/>
+      <span className='price'>Price: {price}$</span></Card.Title>
+  </Card.Body>
+    </Card>
+    </Col>
 );
 export default Collection;
